@@ -240,15 +240,7 @@
                   </li>
                 </ul>
               </div>
-              <!--js-glide-->
-              <script>
-                new Glide(".glide", {
-                  type: "carousel",
-                  gap: 32,
-                  autoplay: 3000,
-                  peek: { before: 0, after: 32 },
-                }).mount();
-              </script>
+
               <div class="glide__arrows" data-glide-el="controls">
                 <button
                   class="glide__arrow glide__arrow--prev btn btn-outline-dark ml-1"
@@ -444,6 +436,15 @@
     ></script>
     <script type="text/javascript">
       var s = skrollr.init();
+    </script>
+    <!--js-glide-->
+    <script>
+      new Glide(".glide", {
+        type: "carousel",
+        gap: 32,
+        autoplay: 3000,
+        peek: { before: 0, after: 32 },
+      }).mount();
     </script>
   </body>
 </html>
