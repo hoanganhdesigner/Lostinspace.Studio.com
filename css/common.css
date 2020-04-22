@@ -3,8 +3,6 @@ body,
 html {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
 }
 html {
   font-size: 100%;
@@ -29,7 +27,7 @@ h4,
 h5 {
   margin: 2.75rem 0 1.05rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.15;
 }
 
@@ -79,4 +77,155 @@ small,
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #333;
+}
+.text-light {
+  color: #fff !important;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.d-flex {
+  display: flex !important;
+}
+.mb-05 {
+  margin-bottom: 1rem;
+}
+.mt-05 {
+  margin-top: 1rem;
+}
+.ml-05 {
+  margin-left: 1rem !important;
+}
+.ml-1 {
+  margin-left: 2rem;
+}
+.ml-2 {
+  margin-left: 4rem !important;
+}
+.mr-1 {
+  margin-right: 2rem;
+}
+.mr-2 {
+  margin-right: 4rem !important;
+}
+.p-md-2 {
+  padding: 4rem !important;
+}
+.pr-lg-2 {
+  padding-right: 4rem !important;
+}
+.pt-lg-2 {
+  padding-top: 4rem !important;
+}
+.p-1 {
+  padding: 2rem;
+}
+.p-0 {
+  padding: 0;
+}
+
+.position-relative {
+  position: relative !important;
+}
+.position-absolute {
+  position: absolute;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-self-start {
+  align-self: flex-start !important;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.align-items-start {
+  align-items: flex-start !important;
+}
+.align-middle {
+  vertical-align: middle !important;
+}
+.flex-column {
+  flex-direction: column !important;
+}
+.font-w-6 {
+  font-weight: 600;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right !important;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 0.5625rem 2.5rem;
+}
+.btn-outline-dark {
+  color: #333;
+  background-color: transparent;
+  background-image: none;
+  border: 0;
+  box-shadow: inset 0 0 0 1px #333;
+}
+.btn-outline-light {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  box-shadow: inset 0 0 0 1px #fff;
+  border: 0px;
+}
+.btn-rounded {
+  border-radius: 1.5625rem;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #333;
+}
+.btn-outline-light:hover {
+  color: #333;
+  background-color: #fff;
+}
+.icon {
+  display: inline-block;
+  pointer-events: none;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.img-fit-contain {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.jstitle-word {
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-weight: 600;
 }

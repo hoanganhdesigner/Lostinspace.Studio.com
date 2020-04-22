@@ -26,14 +26,15 @@
   </head>
 
   <body>
-    <div class="overlay">
+    <!--<div class="overlay">
       <h3>MaisonDesouris</h3>
-    </div>
+    </div>-->
+
     <!--navication-->
-    <header class="site-header fixed-top">
+    <header class="site-header fixed-top text-light">
       <nav class="nav-bar">
         <div class="brand-name ml-2">
-          <h4>Maison Desouris</h4>
+          <a href="index.html"><h4>Maison Desouris</h4></a>
         </div>
         <div class="nav-menu">
           <ul>
@@ -43,9 +44,7 @@
             <li class="nav-item Shop-item">
               <a href="#">Shop</a>
             </li>
-            <li class="nav-item Sale-item">
-              <a href="#">Sale</a>
-            </li>
+
             <li class="nav-item Newspaper-item">
               <a href="#">Newspaper</a>
             </li>
@@ -78,11 +77,15 @@
       </script>
     </header>
     <!--main-->
-    <div class="vs-section">
+    <div
+      class="vs-section"
+      data-0="transform:translateX(0%)"
+      data-4000="transform:translateX(-300%)"
+    >
       <main class="site-main vs-track">
         <div class="home-grid w-100">
           <section
-            class="home-main d-flex align-items-center position-relative"
+            class="home-main d-flex align-items-center position-relative p-md-2 text-light"
           >
             <div class="bg-cover">
               <img
@@ -90,6 +93,15 @@
                 alt=""
                 class="bg-cover-img"
               />
+            </div>
+            <div class="position-relative">
+              <p class="mb-05 font-w-6" style="margin-top: 0;">Backpacks</p>
+              <h1 class="h0">Top Designs</h1>
+              <a
+                href="#"
+                class="btn btn-outline-light btn-rounded position-absolute mt-05"
+                >All the collection</a
+              ><!--link-->
             </div>
           </section>
           <section class="home-products d-flex align-items-center">
@@ -127,8 +139,8 @@
                             200USD
                           </div>
                         </div>
-                      </div>
-                    </a>
+                      </div> </a
+                    ><!--link-->
                   </li>
                   <li class="glide__slide">
                     <a href="#">
@@ -161,8 +173,8 @@
                             50USD
                           </div>
                         </div>
-                      </div>
-                    </a>
+                      </div> </a
+                    ><!--link-->
                   </li>
                   <li class="glide__slide">
                     <a href="#">
@@ -195,8 +207,8 @@
                             96USD
                           </div>
                         </div>
-                      </div>
-                    </a>
+                      </div> </a
+                    ><!--link-->
                   </li>
                   <li class="glide__slide">
                     <a href="#">
@@ -229,8 +241,8 @@
                             190USD
                           </div>
                         </div>
-                      </div>
-                    </a>
+                      </div> </a
+                    ><!--link-->
                   </li>
                 </ul>
               </div>
@@ -342,7 +354,9 @@
               }).mount();
             </script>
           </section>
-          <section class="home-news position-relative">
+          <section
+            class="home-news position-relative p-1 pr-lg-2 pt-lg-2 text-light"
+          >
             <div class="bg-cover">
               <img
                 src="database/img/home-new.jpg"
@@ -350,9 +364,92 @@
                 class="bg-cover-img"
               />
             </div>
+            <div
+              class="d-flex flex-column align-items-start position-relative h-100"
+            >
+              <div class="flex-fill d-flex align-items-center">
+                <div>
+                  <div class="jstitle">
+                    <a class="text-light jstitle-word" href="#">Wallet</a>
+                  </div>
+                  <div class="h4 jstitle">
+                    <a class="text-light jstitle-word" href="#"
+                      ><h4>
+                        NOME VICKY
+                      </h4></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <a class="text-light" href="#"
+                >Read the story
+                <svg
+                  class="icon icon-arrow-right align-middle ml-05"
+                  width="14"
+                  height="14"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  version="1.1"
+                  id="Capa_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="-50 0 512.002 512.002"
+                  style="enable-background: new 0 0 512.002 512.002;"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M388.425,241.951L151.609,5.79c-7.759-7.733-20.321-7.72-28.067,0.04c-7.74,7.759-7.72,20.328,0.04,28.067l222.72,222.105
+  L123.574,478.106c-7.759,7.74-7.779,20.301-0.04,28.061c3.883,3.89,8.97,5.835,14.057,5.835c5.074,0,10.141-1.932,14.017-5.795
+  l236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z"
+                      />
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g></svg></a
+              ><!--link-->
+            </div>
           </section>
         </div>
+        <section class="home-about shop-categories pl-lg-2">
+          <div class="shop-categories-content">
+            <div class="d-flex flex-column align-items-start">
+              <p>About us</p>
+              <h1>Maison Desouris is a fashion shop in Ho Chi Minh city</h1>
+              <p>
+                We did a selection for you. Choose the main function of your
+                future backpack.
+              </p>
+              <a href="#">See all products</a>
+            </div>
+          </div>
+          <ul class="shop-categories-list"></ul>
+        </section>
       </main>
     </div>
+    <!--skrollr.js-->
+    <script
+      type="text/javascript"
+      src="js/skrollr-master/skrollr.min.js"
+    ></script>
+    <script type="text/javascript">
+      var s = skrollr.init();
+    </script>
   </body>
 </html>
