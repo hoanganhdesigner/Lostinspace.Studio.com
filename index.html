@@ -52,21 +52,6 @@
           </ul>
         </div>
       </nav>
-      <!--content-->
-      <!--js-->
-      <script type="text/javascript">
-        TweenMax.to(".overlay h3", 2, {
-          delay: 1,
-          left: "90%",
-          opacity: 0,
-          ease: Expo.easeInOut,
-        });
-        TweenMax.to(".overlay", 2, {
-          delay: 1,
-          right: "100%",
-          ease: Expo.easeInOut,
-        });
-      </script>
     </header>
     <!--main-->
     <div
@@ -437,14 +422,28 @@
     </script>
     <!--glide-->
     <script type="text/javascript" src="js/Glide/glide.js"></script>
-    <!--js-glide-->
     <script type="text/javascript">
-      new Glide(".glide", {
+      var glide = new Glide(".glide", {
         type: "carousel",
         gap: 32,
         autoplay: 3000,
         peek: { before: 0, after: 32 },
       }).mount();
+    </script>
+    <!--content-->
+    <!--js-->
+    <script type="text/javascript">
+      TweenMax.to(".overlay h3", 2, {
+        delay: 1,
+        left: "90%",
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+      TweenMax.to(".overlay", 2, {
+        delay: 1,
+        right: "100%",
+        ease: Expo.easeInOut,
+      });
     </script>
   </body>
 </html>
