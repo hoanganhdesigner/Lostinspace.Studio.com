@@ -54,21 +54,6 @@
           </ul>
         </div>
       </nav>
-      <!--content-->
-      <!--js-->
-      <script type="text/javascript">
-        TweenMax.to(".overlay h3", 2, {
-          delay: 1,
-          left: "90%",
-          opacity: 0,
-          ease: Expo.easeInOut,
-        });
-        TweenMax.to(".overlay", 2, {
-          delay: 1,
-          right: "100%",
-          ease: Expo.easeInOut,
-        });
-      </script>
     </header>
     <!--main-->
     <div
@@ -428,6 +413,7 @@
         </section>
       </main>
     </div>
+    <!--jq-->
     <!--skrollr.js-->
     <script
       type="text/javascript"
@@ -444,6 +430,20 @@
         autoplay: 3000,
         peek: { before: 0, after: 32 },
       }).mount();
+    </script>
+    <!--TweenMax-->
+    <script type="text/javascript">
+      TweenMax.to(".overlay h3", 2, {
+        delay: 1,
+        left: "90%",
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+      TweenMax.to(".overlay", 2, {
+        delay: 1,
+        right: "100%",
+        ease: Expo.easeInOut,
+      });
     </script>
   </body>
 </html>
